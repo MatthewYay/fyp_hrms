@@ -4,7 +4,7 @@
   <artifactId>fyp_hrms</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
- 
+
   <build>
     <resources>
       <resource>
@@ -21,14 +21,14 @@
       </plugin>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.10.1</version>
+        <version>3.8.1</version>
         <configuration>
           <release>15</release>
         </configuration>
       </plugin>
     </plugins>
   </build>
-  
+
    <dependencies>
   <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
@@ -46,4 +46,4 @@
     <scope>provided</scope>
 </dependency>
 </dependencies>
-</project>
+</project> 
